@@ -141,6 +141,10 @@
 			border-bottom-color: transparent;
 		}
 
+	p a {
+		color: #F7A398;
+	}
+
 	strong, b {
 		color: #ffffff;
 		font-weight: 600;
