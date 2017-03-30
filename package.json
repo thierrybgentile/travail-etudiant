@@ -1,0 +1,35 @@
+{
+  "name": "travail-etudiant",
+  "description": "",
+  "version": "0.0.1",
+  "author": "thierrybgentile",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "https://github.com/thierrybgentile/travail-etudiant/issues",
+  "dependencies": {
+    "babel-preset-env": "^1.1.8",
+    "image-webpack-loader": "^3.1.0",
+    "reshape-standard": "next",
+    "spike-css-standards": "next",
+    "spike-page-id": "next",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "rimraf": "^2.5.4",
+    "snazzy": "^6.0.0",
+    "spike-core": "^0.13.3",
+    "standard": "^8.6.0"
+  },
+  "homepage": "https://github.com/thierrybgentile/travail-etudiant",
+  "main": "app.js",
+  "private": true,
+  "repository": "https://github.com/thierrybgentile/travail-etudiant",
+  "scripts": {
+    "lint": "standard | snazzy",
+    "precommit": "npm run lint -s",
+    "pretest": "npm run lint -s",
+    "test": "NODE_ENV=test ava"
+  }
+}
